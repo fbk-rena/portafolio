@@ -1,0 +1,75 @@
+/*Pink, Black & withe
+pink #EECABF
+lil brigther pink ##E9BFC9*/
+
+
+/*Pink, Yellow, aqua, black
+pink #F2CDDE
+yellow #FCEDC4
+ligth gray #D7D7D7
+ACENTOS aqua #0DE7CD*/
+
+
+/*Header*/
+
+header {
+    height: 100vh;
+    background-image: url(../assets/mikayla-mallek-219946.jpg);
+    background-size: cover;
+    background-position: center;
+    background-size:cover;
+    display: flex;
+}
+
+#logo {
+    margin-top: 20vh;
+}
+
+#nav-home {
+    justify-content: flex-end;
+}
+
+#nav-logo {
+    margin-left: 23%;
+}
+
+#btn-contacto-nav {
+    margin-top: 20vh;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    color: #D7D7D7;
+}
+
+
+/*About me*/
+
+#bio {
+    padding-right: 5%;
+}
+
+
+/*Skills*/
+
+#skills {
+    color: fff;
+    background-color: #E9BFC9;
+}
+
+#hab-tecnicas {
+    padding: 5vh;
+}
+
+#skills-circle {
+    display: flex;
+    justify-content: space-between;
+    padding: 5vh;
+    flex-wrap: wrap;
+}
+/*proyectos*/
+.cards {
+    padding: 3%;
+}
