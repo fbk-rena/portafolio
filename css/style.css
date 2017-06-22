@@ -9,6 +9,24 @@ yellow #FCEDC4
 ligth gray #D7D7D7
 ACENTOS aqua #0DE7CD*/
 
+.rosa {
+    background-color: #E9BFC9;
+}
+
+/*Side Nav*/
+#mobile-demo{
+    height: 100vh;
+}
+.fondo-side{
+    height: 60vh;
+}
+.background{
+    background-image: url(../assets/artem-sapegin-176819.jpg);
+    height: 60vh;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+}
 
 /*Header*/
 
@@ -17,31 +35,24 @@ header {
     background-image: url(../assets/mikayla-mallek-219946.jpg);
     background-size: cover;
     background-position: center;
-    background-size:cover;
+    background-size: cover;
     display: flex;
+    position: relative;
+    align-items: flex-end;
 }
 
 #logo {
-    margin-top: 20vh;
+    margin-bottom: 30vh;
 }
 
 #nav-home {
-    justify-content: flex-end;
-}
-
-#nav-logo {
-    margin-left: 23%;
+    position: absolute;
+    margin-top: -10vh;
 }
 
 #btn-contacto-nav {
-    margin-top: 20vh;
-}
-
-h1,
-h2,
-h3,
-h4 {
-    color: #D7D7D7;
+    margin-bottom: 20vh;
+    align-items: flex-end;
 }
 
 
@@ -50,26 +61,31 @@ h4 {
 #bio {
     padding-right: 5%;
 }
+#btn-rena{
+    width: 55vh;
+}
 
 
 /*Skills*/
-
-#skills {
-    color: fff;
-    background-color: #E9BFC9;
+#skills{
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    padding-right: 9vh;
+    margin-top: 3vh;
 }
-
-#hab-tecnicas {
-    padding: 5vh;
-}
-
-#skills-circle {
+#skills-cont {
     display: flex;
-    justify-content: space-between;
-    padding: 5vh;
+    /*justify-content: space-between;*/
     flex-wrap: wrap;
 }
+
+.skill-icon:hover {
+    cursor: pointer
+}
+
+
 /*proyectos*/
+
 .cards {
     padding: 3%;
 }

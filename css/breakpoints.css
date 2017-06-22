@@ -1,6 +1,6 @@
-@media (min-width: 0px) and (max-width: 600px){
+@media (min-width: 0px) and (max-width: 750px){
     header {
-    height: 75vh;
+    height: 55vh;
     }
     
 }

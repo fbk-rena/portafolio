@@ -21,65 +21,73 @@
             <div id="logo" class="col s4">
                 <img class="responsive-img circle" src="assets/k-logo.jpg" alt="">
             </div>
-            <div id="nav-home" class="col s8">
-                <nav class="transparent">
-                    <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-                    <ul class="hide-on-med-and-down">
-                        <li><a href="#">Acerca de mí</a></li>
-                        <li><a href="#">Mis Proyectos </a></li>
-                        <li><a href="#">Fotografía</a></li>
-                    </ul>
-                    <ul class="side-nav" id="mobile-demo">
-                        <li><a href="#">Acerca de mí</a></li>
-                        <li><a href="#">Mis Proyectos </a></li>
-                    </ul>
-                    <a id="nav-logo" href="index.html" class="brand-logo">Karla Lorena</a>
-                </nav>
-                <a id="btn-contacto-nav" class="btn waves-effect waves-light btn-large right" href="#modalContacto">Contactame!!</a>
-            </div>
+            <a id="btn-contacto-nav" class="btn waves-effect waves-light btn-large right rosa" href="#modalContacto">Contactame!!</a>
         </div>
-
-
     </header>
+    <nav id="nav-home" class="transparent">
+        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+        <ul class="hide-on-med-and-down left">
+            <li><a href="../index.html">Inicio </a></li>
+        </ul>
+        <ul class="hide-on-med-and-down right">
+            <li><a class="active" href="#proyectos">Mis Proyectos </a></li>
+            <li><a href="#">Acerca de mí</a></li>
+        </ul>
+        <ul class="side-nav" id="mobile-demo">
+            <!--<li>
+                <div class="user-view">
+                    <div class="background">
+                        <a class="row" href="#!user"><img class="circle" src=""></a>
+                        <a class="row" href="#!name"><span class="name">Karla Lorena</span></a>
+                        <a class="row" href="#!email"><span class="email">fbk.rena@gmail.com</span></a>
+                    </div>
+
+                </div>
+            </li>-->
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="#">Presentacion</a></li>
+            <li><a href="view/rena.html">Acerca de mí</a></li>
+            <li><a class="" href="#">Mis Habilidades </a></li>
+            <li><a class="" href="#proyectos">Mis Proyectos</a></li>
+            <li><a class="" href="#modalContacto">Contactame</a></li>
+        </ul>
+        <a id="nav-logo" href="index.html" class="brand-logo center">Karla Lorena</a>
+    </nav>
     <main>
-        <section id="karla" class="container">
+        <section id="karla" class="container center">
             <div id="bio" class="row">
-                <div class="col s10 center">
-                    <p>
-                        Desarrolladora Front-End... <br> es asombroso como en este conjunto de palabras, muchas constantes de mi vida encontraron un punto de convergencia ideal. Laboratoria la oportunidad y mi desempeño durante esta primer etapa, la herramienta para lograr exponenciar mis habilidades, capacidades, pasiones e intereses.
+                <div id="cuadro">
+                </div>
+                <div>
+                    <p class="flow-text">
+                        Desarrolladora Front-End... <br> Es asombroso como en este conjunto de palabras, muchas constantes de mi vida encontraron un punto de convergencia ideal. Laboratoria la oportunidad y mi desempeño durante esta primer etapa, la herramienta para lograr exponenciar mis habilidades, capacidades, pasiones e intereses.
                     </p>
                 </div>
                 <!---<div id="photo-bio" class="col s4">
                     <img class="responsive-img circle" src="">
                 </div>--->
             </div>
-            <a class="waves-effect waves-light btn " >Acerca de mí</a>
+            <a id="btn-rena" href="view/rena.html" class="waves-effect waves-light btn black ">Acerca de mí</a>
         </section>
-        <section id="skills" class="container">
-            <h3 id="hab-tecnicas" class="center">Habilidades tecnicas</h3>
-            <div id="skills-circle" class="row">
-                <div class="col s6 m4 l2">
-                    <img class="responsive-img circle" src="https://dummyimage.com/200x200/fff/fff.jpg">
+        <section id="skills" class="container rosa center">
+            <h3 id="skills-h">Habilidades</h3>
+            <div id="skills-cont" class="row">
+                <div class="col s8 m4 l3 skill-icon">
+                    <img class="responsive-img circle" src="assets/badges/web-dev-icon.png">
                 </div>
-                <div class="col s6 m4 l2">
-                    <img class="responsive-img circle" src="https://dummyimage.com/200x200/fff/fff.jpg">
+                <div class="col s8 m4 l3 skill-icon">
+                    <img class="responsive-img" src="assets/badges/Inclusivity_noun_23949_XOXO.png">
                 </div>
-                <div class="col s6 m4 l2">
-                    <img class="responsive-img circle" src="https://dummyimage.com/200x200/fff/fff.jpg">
-                </div>
-                <div class="col s6 m4 l2">
-                    <img class="responsive-img circle" src="https://dummyimage.com/200x200/fff/fff.jpg">
-                </div>
-                <div class="col s6 m4 l2">
-                    <img class="responsive-img circle" src="https://dummyimage.com/200x200/fff/fff.jpg">
+                <div class="col s8 m4 l3 skill-icon">
+                    <img class="responsive-img circle" src="assets/badges/ux-image.png">
                 </div>
             </div>
         </section>
-        
+
         <section id="proyectos" class="container">
             <h3 id="proyectos-landing" class="center">Mis proyectos</h3>
-            
-              <section class="row">
+
+            <section class="row">
                 <div class="card col s12 m6 l4">
                     <div class="card-image waves-effect waves-block waves-light sticky-action">
                         <img class="activator" src="images/office.jpg">
@@ -93,7 +101,7 @@
                         <p>Here is some more information about this product that is only revealed once clicked on.</p>
                     </div>
                 </div>
-                
+
                 <div class="card col s12 m6 l4">
                     <div class="card-image waves-effect waves-block waves-light sticky-action">
                         <img class="activator" src="images/office.jpg">
@@ -107,7 +115,7 @@
                         <p>Here is some more information about this product that is only revealed once clicked on.</p>
                     </div>
                 </div>
-                
+
                 <div class="card col s12 m6 l4">
                     <div class="card-image waves-effect waves-block waves-light sticky-action">
                         <img class="activator" src="images/office.jpg">
@@ -123,7 +131,7 @@
                 </div>
             </section>
             <section class="row">
-               
+
                 <div class="card col s12 m6 l4">
                     <div class="card-image waves-effect waves-block waves-light sticky-action">
                         <img class="activator" src="images/office.jpg">
@@ -137,7 +145,7 @@
                         <p>Here is some more information about this product that is only revealed once clicked on.</p>
                     </div>
                 </div>
-                
+
                 <div class="card col s12 m6 l4">
                     <div class="card-image waves-effect waves-block waves-light sticky-action">
                         <img class="activator" src="images/office.jpg">
@@ -151,7 +159,7 @@
                         <p>Here is some more information about this product that is only revealed once clicked on.</p>
                     </div>
                 </div>
-                
+
                 <div class="card col s12 m6 l4">
                     <div class="card-image waves-effect waves-block waves-light sticky-action">
                         <img class="activator" src="images/office.jpg">
@@ -190,15 +198,21 @@
             </div>
         </section>
     </main>
-    <footer class="page-footer">
+    <footer class="page-footer rosa">
         <div class="container">
             <div class="row">
                 <div class="col l6 s12">
                     <h5 class="white-text">Footer Content</h5>
                     <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="#!">Acerca de mí</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Mis Proyectos</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Mis Habilidades</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#modalContacto">Contacto</a></li>
+                    </ul>
                 </div>
                 <div class="col l4 offset-l2 s12">
-                    <h5 class="white-text">Links</h5>
+                    <h5 class="white-text">Tambien me puedes encontrar</h5>
                     <ul>
                         <li><a class="grey-text text-lighten-3" href="#!">Acerca de mí</a></li>
                         <li><a class="grey-text text-lighten-3" href="#!">Mis Proyectos</a></li>
