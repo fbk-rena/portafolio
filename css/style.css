@@ -12,7 +12,6 @@ ACENTOS aqua #0DE7CD*/
 .rosa {
     background-color: #E9BFC9;
 }
-
 /*Side Nav*/
 #mobile-demo{
     height: 100vh;
@@ -29,7 +28,6 @@ ACENTOS aqua #0DE7CD*/
 }
 
 /*Header*/
-
 header {
     height: 100vh;
     background-image: url(../assets/mikayla-mallek-219946.jpg);
@@ -40,16 +38,13 @@ header {
     position: relative;
     align-items: flex-end;
 }
-
 #logo {
     margin-bottom: 30vh;
 }
-
 #nav-home {
     position: absolute;
     margin-top: -10vh;
 }
-
 #btn-contacto-nav {
     margin-bottom: 20vh;
     align-items: flex-end;
@@ -57,7 +52,6 @@ header {
 
 
 /*About me*/
-
 #bio {
     padding-right: 5%;
 }
@@ -65,12 +59,9 @@ header {
     width: 55vh;
 }
 
-
 /*Skills*/
 #skills{
-    padding-top: 5vh;
-    padding-bottom: 5vh;
-    padding-right: 9vh;
+    padding: 5vh 3vh;
     margin-top: 3vh;
 }
 #skills-cont {
@@ -78,14 +69,11 @@ header {
     /*justify-content: space-between;*/
     flex-wrap: wrap;
 }
-
 .skill-icon:hover {
     cursor: pointer
 }
 
-
 /*proyectos*/
-
 .cards {
     padding: 3%;
 }

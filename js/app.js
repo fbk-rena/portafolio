@@ -1,13 +1,10 @@
  var cargarPagina = function () {
      $(".button-collapse").sideNav();
-    $('.button-collapse').sideNav({
-      closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
-      draggable: true, // Choose whether you can drag to open on touch screens,
-    }
-  );
+    $('.button-collapse').sideNav({closeOnClick: true});
      $('.modal').modal();
      $('.carousel').carousel();
      desplazamientoSuave();
+     //muestraFixedBtn();
  };
 
  var desplazamientoSuave = function () {
@@ -23,5 +20,12 @@
          event.preventDefault();
      });
  };
+/*var muestraFixedBtn = function () {
+    if (window.scrollY < 125) {
+        $("#fixed-btn").hide();
+    } if else(window.scrollY >= 126) {
+         $("#fixed-btn").show();
+    }
+};*/
 
  $(document).ready(cargarPagina);
