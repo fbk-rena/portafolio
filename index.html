@@ -3,7 +3,7 @@
 
 <head>
     <!--Import Google Icon Font-->
-    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
     <link type="text/css" rel="stylesheet" href="css/style.css" />
@@ -78,19 +78,19 @@
                     <img class="responsive-img circle" src="">
                 </div>--->
             </div>
-            <a id="btn-rena" href="view/rena.html" class="waves-effect waves-light btn black ">Acerca de mí</a>
+            <a id="btn-rena" href="view/rena.html" class="waves-effect waves-light btn black" target="_blank">Acerca de mí</a>
         </section>
         <section id="skills" class="container rosa center">
             <h3 id="skills-h">Habilidades</h3>
             <div id="skills-cont" class="row">
                 <div class="col s8 m4 l3 skill-icon">
-                    <img class="responsive-img circle" src="assets/badges/web-dev-icon.png">
+                    <a href="#" class="pulse"><img class="responsive-img circle" src="assets/badges/web-dev-icon.png"></a>
                 </div>
                 <div class="col s8 m4 l3 skill-icon">
-                    <img class="responsive-img" src="assets/badges/Inclusivity_noun_23949_XOXO.png">
+                    <a href="#" class="pulse"><img class="responsive-img" src="assets/badges/Inclusivity_noun_23949_XOXO.png"></a>
                 </div>
                 <div class="col s8 m4 l3 skill-icon">
-                    <img class="responsive-img circle" src="assets/badges/ux-image.png">
+                    <a href="#" class="pulse"><img class="responsive-img circle" src="assets/badges/ux-image.png"></a>
                 </div>
             </div>
         </section>
@@ -169,7 +169,7 @@
                     <div class="card-action">
                         <span class="card-title activator grey-text text-darken-4">Proyecto <i class="material-icons right">more_vert</i></span>
                         <p><a href="#">Repositorio</a></p>
-                         <p><a href="https://github.com/Annakluz/sprint3-proyectoVersion2">Demo</a></p>
+                        <p><a href="https://github.com/Annakluz/sprint3-proyectoVersion2">Demo</a></p>
                     </div>
                     <div class="card-reveal">
                         <span class="card-title grey-text text-darken-4">Card Title<i class="material-icons right">close</i></span>
@@ -207,11 +207,34 @@
             <!-- Modal Structure -->
             <div id="modalContacto" class="modal bottom-sheet">
                 <div class="modal-content">
-                    <h4></h4>
-                    <p>A bunch of text</p>
+                    <div class="row center">
+                        <div class="col l6 s12">
+                            <a href="tel:+5549350645"><i class="material-icons right">call</i>Llamame 55 4935 0645 </a>
+                            <a href=""><i class="material-icons right">mail</i>fbk.rena@gmail.com </a>
+                            <a href=""><i class="material-icons right">more_vert</i></a>
+                        </div>
+                        <div class="col l6 s12">
+                            <h5>Dejame un mensaje <i class="material-icons right">favorite border</i></h5>
+                            <div class="input-field col s12">
+                                <div class="input-field col s6">
+                                    <input id="first_name" type="text" class="validate">
+                                    <label for="first_name">Nombre</label>
+                                </div>
+                                <div class="input-field col s6">
+                                    <input id="email" type="email" class="validate">
+                                    <label for="email">Email</label>
+                                </div>
+                                <div class="input-field col s12">
+                                    <textarea id="textarea" class="materialize-textarea"></textarea>
+                                <label for="textarea">Mensaje</label>
+                               </div>
+                               <i class="material-icons right">favorite border</i>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="modal-footer">
-                    <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Agree</a>
+                    <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">Enviar</a>
                 </div>
             </div>
         </section>
@@ -242,9 +265,8 @@
             </div>
         </div>
         <div class="footer-copyright">
-            <div class="container">
+            <div class="container center">
                 © 2017 Rena
-                <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
             </div>
         </div>
     </footer>
