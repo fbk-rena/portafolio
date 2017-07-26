@@ -44,10 +44,11 @@ header {
 #nav-home {
     position: absolute;
     margin-top: -10vh;
+    font-size: 7em;
 }
 #btn-contacto-nav {
-    margin-bottom: 20vh;
-    align-items: flex-end;
+   margin-bottom: 85vh;
+    margin-left: 70vw;
 }
 
 
@@ -76,4 +77,29 @@ header {
 /*proyectos*/
 .cards {
     padding: 3%;
+}
+
+/*slider*/
+.carousel .carousel-item{
+    width: 35vw;   
+}
+.devicon{
+    font-size: 9em;
+    color: #000;
+    padding: 10vh;
+}
+#dev, #agil, #ux{
+    padding: 10vh;
+}
+#carousel-eva{
+    height: 150vh;
+}
+#eva-slide .carousel, #eva-slide .carousel .carousel-item{
+    height: 85vh;
+}
+#carousel-yape{
+    height: 150vh;
+}
+#yape-slide .carousel, #yape-slide .carousel .carousel-item{
+    height: 85vh;
 }
